@@ -1,0 +1,2 @@
+2020-06-22 19:52:38,579 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for workie
+2020-06-22 19:52:38,991 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for workie

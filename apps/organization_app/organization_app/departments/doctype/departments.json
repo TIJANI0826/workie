@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_copy": 1,
+ "allow_import": 1,
+ "creation": "2020-06-32 20:38:46",
+ "description": "Department to which each user in the company belongs",
+ "doctype": "DocTypee"
+ "document_type": "Setup",
+ "engine": "InnoDB",
+ "field_order": [
+  "department_name",
+  "department_number",
+  "company",
+ ],
+ "fields": [
+  
+  {
+   "fieldname": "department_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Department Name",
+   "no_copy": 1,
+   "oldfieldname": "department_name",
+   "oldfieldtype": "Data",
+   "reqd": 1
+  },
+  {
+   "fieldname": "department_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Department Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Company",
+   "oldfieldname": "company",
+   "oldfieldtype": "Link",
+   "options": "Company",
+   "read_only": 1,
+   "remember_last_selected_value": 1,
+   "reqd": 1
+  },
+],
+ "icon": "fa fa-book",
+ "idx": 1,
+ "is_tree": 1,
+ "links": [],
+ "modified": "2020-03-18 17:57:52.063233",
+ "modified_by": "Administrator",
+ "module": "Departments",
+ "name": "Departments",
+ "nsm_parent_field": "parent_account",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "import": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "CEO",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "import": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Chief Admin",
+   "share": 1,
+   "write": 1  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Head Of Department"
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Project Head"
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Employee" }
+ ],
+ "search_fields": "department_number",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}

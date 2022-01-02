@@ -1,0 +1,5 @@
+2021-11-30 02:05:26,296 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for workie
+2021-11-30 02:05:26,775 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for workie
+2021-11-30 02:05:27,315 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for workie
+2021-11-30 02:05:27,344 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for workie
+2021-11-30 02:05:28,121 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for workie

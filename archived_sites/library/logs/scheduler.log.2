@@ -1,0 +1,864 @@
+2020-06-15 12:04:43,852 ERROR scheduler Exception in Enqueue Events for Site workie
+Traceback (most recent call last):
+  File "/home/ibrahim/frappe-bench/env/lib/python3.8/site-packages/pymysql/connections.py", line 581, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 89, in get_connection
+    conn = pymysql.connect(self.host, self.user or '', self.password or '',
+  File "/home/ibrahim/frappe-bench/env/lib/python3.8/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ibrahim/frappe-bench/env/lib/python3.8/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/ibrahim/frappe-bench/env/lib/python3.8/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'library' ([Errno -3] Temporary failure in name resolution)")
+
+2020-06-15 12:05:46,780 ERROR scheduler Exception in Enqueue Events for Site VirtualOffice
+Traceback (most recent call last):
+  File "/home/ibrahim/frappe-bench/env/lib/python3.8/site-packages/pymysql/connections.py", line 581, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 89, in get_connection
+    conn = pymysql.connect(self.host, self.user or '', self.password or '',
+  File "/home/ibrahim/frappe-bench/env/lib/python3.8/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ibrahim/frappe-bench/env/lib/python3.8/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/ibrahim/frappe-bench/env/lib/python3.8/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'library' ([Errno -3] Temporary failure in name resolution)")
+
+2020-06-15 12:05:48,318 ERROR scheduler Exception in Enqueue Events for Site library
+Traceback (most recent call last):
+  File "/home/ibrahim/frappe-bench/env/lib/python3.8/site-packages/pymysql/connections.py", line 581, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 89, in get_connection
+    conn = pymysql.connect(self.host, self.user or '', self.password or '',
+  File "/home/ibrahim/frappe-bench/env/lib/python3.8/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ibrahim/frappe-bench/env/lib/python3.8/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/ibrahim/frappe-bench/env/lib/python3.8/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'library' ([Errno -3] Temporary failure in name resolution)")
+
+2020-06-15 12:05:48,335 ERROR scheduler Exception in Enqueue Events for Site workie
+Traceback (most recent call last):
+  File "/home/ibrahim/frappe-bench/env/lib/python3.8/site-packages/pymysql/connections.py", line 581, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/database/database.py", line 122, in sql
+    self.connect()
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/database/database.py", line 75, in connect
+    self._conn = self.get_connection()
+  File "/home/ibrahim/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 89, in get_connection
+    conn = pymysql.connect(self.host, self.user or '', self.password or '',
+  File "/home/ibrahim/frappe-bench/env/lib/python3.8/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/ibrahim/frappe-bench/env/lib/python3.8/site-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/home/ibrahim/frappe-bench/env/lib/python3.8/site-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'library' ([Errno -3] Temporary failure in name resolution)")
+
+2020-06-15 21:26:10,717 DEBUG scheduler Queued events for site library
+2020-06-15 21:26:13,993 INFO scheduler Scheduled Job Start: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for library
+2020-06-15 21:26:26,068 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for library
+2020-06-15 21:26:26,301 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for library
+2020-06-15 21:26:31,726 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for library
+2020-06-15 21:26:32,056 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.collect_project_status for library
+2020-06-15 21:26:39,957 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.collect_project_status for library
+2020-06-15 21:26:40,134 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.hourly_reminder for library
+2020-06-15 21:26:40,463 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.hourly_reminder for library
+2020-06-15 21:26:40,609 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for library
+2020-06-15 21:26:55,438 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for library
+2020-06-15 21:27:01,520 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for library
+2020-06-15 21:27:11,106 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for library
+2020-06-15 21:27:16,111 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for library
+2020-06-15 21:27:21,026 DEBUG scheduler Queued events for site library
+2020-06-15 21:27:21,289 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for library
+2020-06-15 21:27:21,403 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.subscription.subscription.process_all for library
+2020-06-15 21:27:23,736 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.subscription.subscription.process_all for library
+2020-06-15 21:27:23,879 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for library
+2020-06-15 21:27:26,690 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for library
+2020-06-15 21:27:26,824 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:27:27,650 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:27:27,684 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:27:28,979 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:27:29,007 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:27:32,456 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:27:32,484 INFO scheduler Scheduled Job Start: library_management.task.every_day_at_18_15 for library
+2020-06-15 21:27:32,908 INFO scheduler Scheduled Job Failed: library_management.task.every_day_at_18_15 for library
+2020-06-15 21:27:33,195 INFO scheduler Scheduled Job Start: library_management.task.run_every_ten_mins for library
+2020-06-15 21:27:33,309 INFO scheduler Scheduled Job Failed: library_management.task.run_every_ten_mins for library
+2020-06-15 21:27:33,415 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for library
+2020-06-15 21:27:36,211 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for library
+2020-06-15 21:27:36,327 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for library
+2020-06-15 21:27:40,995 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for library
+2020-06-15 21:27:41,205 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for library
+2020-06-15 21:27:41,368 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for library
+2020-06-15 21:27:41,524 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for library
+2020-06-15 21:27:41,808 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for library
+2020-06-15 21:27:41,968 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for library
+2020-06-15 21:27:43,247 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for library
+2020-06-15 21:27:43,816 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for library
+2020-06-15 21:27:54,384 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for library
+2020-06-15 21:27:54,604 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for library
+2020-06-15 21:27:54,742 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for library
+2020-06-15 21:27:54,874 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for library
+2020-06-15 21:27:55,335 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for library
+2020-06-15 21:27:55,428 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 21:27:55,518 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 21:27:55,552 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:27:55,634 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:27:55,665 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:27:56,268 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:27:56,299 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:27:58,169 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:27:58,202 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:27:58,322 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:27:58,348 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 21:27:58,570 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 21:27:58,605 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for library
+2020-06-15 21:27:59,563 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for library
+2020-06-15 21:27:59,702 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for library
+2020-06-15 21:28:00,199 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for library
+2020-06-15 21:28:00,325 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for library
+2020-06-15 21:28:02,591 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for library
+2020-06-15 21:28:21,320 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:28:21,358 DEBUG scheduler Queued events for site library
+2020-06-15 21:28:21,502 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:28:21,533 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:28:22,544 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:28:22,571 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:28:23,000 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:28:23,036 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 21:28:23,171 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 21:28:23,212 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:28:23,295 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:28:23,335 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:28:23,474 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:28:23,505 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:28:23,742 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:28:23,773 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:28:23,966 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:28:23,996 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 21:28:24,282 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 21:29:21,523 DEBUG scheduler Queued events for site library
+2020-06-15 21:30:23,508 DEBUG scheduler Queued events for site library
+2020-06-15 21:30:30,524 INFO scheduler Scheduled Job Start: library_management.task.run_every_ten_mins for library
+2020-06-15 21:30:39,695 INFO scheduler Scheduled Job Failed: library_management.task.run_every_ten_mins for library
+2020-06-15 21:30:43,165 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for library
+2020-06-15 21:30:47,016 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for library
+2020-06-15 21:30:47,637 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for library
+2020-06-15 21:30:49,496 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for library
+2020-06-15 21:30:49,708 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for library
+2020-06-15 21:30:53,462 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for library
+2020-06-15 21:31:24,246 DEBUG scheduler Queued events for site library
+2020-06-15 21:32:26,318 DEBUG scheduler Queued events for site library
+2020-06-15 21:32:30,415 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:32:33,093 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:32:33,132 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:32:36,422 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:32:36,455 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:32:41,955 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:32:41,988 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 21:32:42,147 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 21:32:42,183 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:32:43,686 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:32:43,723 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:32:44,267 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:32:44,303 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:32:47,364 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:32:47,393 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:32:47,552 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:32:47,581 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 21:32:47,809 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 21:33:26,920 DEBUG scheduler Queued events for site library
+2020-06-15 21:34:27,187 DEBUG scheduler Queued events for site library
+2020-06-15 21:35:27,355 DEBUG scheduler Queued events for site library
+2020-06-15 21:36:28,563 DEBUG scheduler Queued events for site library
+2020-06-15 21:36:33,326 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:36:35,692 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:36:35,733 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:36:39,572 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:36:39,609 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:36:44,978 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:36:45,016 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 21:36:45,225 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 21:36:45,261 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:36:45,361 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:36:45,406 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:36:45,956 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:36:46,001 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:36:49,002 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:36:49,035 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:36:49,229 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:36:49,262 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 21:36:49,652 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 21:37:28,830 DEBUG scheduler Queued events for site library
+2020-06-15 21:38:29,599 DEBUG scheduler Queued events for site library
+2020-06-15 21:39:31,556 DEBUG scheduler Queued events for site library
+2020-06-15 21:40:32,216 DEBUG scheduler Queued events for site library
+2020-06-15 21:40:38,017 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:40:40,493 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:40:40,588 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:40:44,122 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:40:44,159 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:40:50,725 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:40:50,754 INFO scheduler Scheduled Job Start: library_management.task.run_every_ten_mins for library
+2020-06-15 21:40:54,926 INFO scheduler Scheduled Job Failed: library_management.task.run_every_ten_mins for library
+2020-06-15 21:40:56,132 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 21:40:56,248 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 21:40:56,282 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:40:56,398 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:40:56,537 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:40:57,397 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:40:57,426 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:40:59,384 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:40:59,411 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:40:59,562 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:40:59,591 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 21:40:59,738 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 21:41:33,233 DEBUG scheduler Queued events for site library
+2020-06-15 21:42:33,430 DEBUG scheduler Queued events for site library
+2020-06-15 21:43:33,823 DEBUG scheduler Queued events for site library
+2020-06-15 21:44:34,353 DEBUG scheduler Queued events for site library
+2020-06-15 21:44:49,309 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:44:52,025 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:44:52,558 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:44:55,461 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:44:55,507 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:44:58,433 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:44:58,476 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 21:44:59,265 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 21:44:59,308 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:44:59,448 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:44:59,560 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:45:00,225 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:45:00,298 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:45:03,683 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:45:03,731 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:45:03,926 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:45:03,974 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 21:45:04,187 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 21:45:34,618 DEBUG scheduler Queued events for site library
+2020-06-15 21:45:40,564 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for library
+2020-06-15 21:45:44,187 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for library
+2020-06-15 21:45:44,436 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for library
+2020-06-15 21:45:46,030 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for library
+2020-06-15 21:45:46,366 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for library
+2020-06-15 21:45:48,934 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for library
+2020-06-15 21:46:34,782 DEBUG scheduler Queued events for site library
+2020-06-15 21:47:34,950 DEBUG scheduler Queued events for site library
+2020-06-15 21:48:35,126 DEBUG scheduler Queued events for site library
+2020-06-15 21:48:42,596 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:48:44,059 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:48:44,466 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:48:45,419 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:48:45,480 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:48:47,924 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:48:47,959 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 21:48:48,201 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 21:48:48,241 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:48:48,476 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:48:48,509 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:48:48,989 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:48:49,031 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:48:55,353 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:48:55,381 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:48:55,529 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:48:55,558 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 21:48:55,998 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 21:49:35,469 DEBUG scheduler Queued events for site library
+2020-06-15 21:50:35,688 DEBUG scheduler Queued events for site library
+2020-06-15 21:50:36,648 INFO scheduler Scheduled Job Start: library_management.task.run_every_ten_mins for library
+2020-06-15 21:50:39,976 INFO scheduler Scheduled Job Failed: library_management.task.run_every_ten_mins for library
+2020-06-15 21:51:35,890 DEBUG scheduler Queued events for site library
+2020-06-15 21:52:36,120 DEBUG scheduler Queued events for site library
+2020-06-15 21:52:38,775 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:52:40,011 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:52:40,495 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:52:44,122 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:52:44,153 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:52:48,520 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:52:48,550 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 21:52:48,674 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 21:52:48,712 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:52:48,824 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:52:48,854 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:52:49,533 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:52:49,562 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:52:53,164 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:52:53,196 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:52:53,398 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:52:53,434 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 21:52:53,621 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 21:53:36,288 DEBUG scheduler Queued events for site library
+2020-06-15 21:54:37,107 DEBUG scheduler Queued events for site library
+2020-06-15 21:55:37,312 DEBUG scheduler Queued events for site library
+2020-06-15 21:56:37,667 DEBUG scheduler Queued events for site library
+2020-06-15 21:56:45,656 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:56:47,531 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 21:56:48,520 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:56:50,160 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 21:56:50,297 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:56:54,240 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 21:56:54,269 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 21:56:55,012 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 21:56:55,045 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:56:55,163 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 21:56:55,201 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:56:55,536 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 21:56:55,568 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:56:58,778 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 21:56:58,808 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:56:58,958 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 21:56:59,017 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 21:56:59,304 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 21:57:37,834 DEBUG scheduler Queued events for site library
+2020-06-15 21:58:38,016 DEBUG scheduler Queued events for site library
+2020-06-15 21:59:38,178 DEBUG scheduler Queued events for site library
+2020-06-15 22:00:40,269 DEBUG scheduler Queued events for site library
+2020-06-15 22:01:00,607 INFO scheduler Scheduled Job Start: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for library
+2020-06-15 22:01:21,863 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for library
+2020-06-15 22:01:24,638 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for library
+2020-06-15 22:01:29,495 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for library
+2020-06-15 22:01:30,229 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.collect_project_status for library
+2020-06-15 22:01:40,688 DEBUG scheduler Queued events for site library
+2020-06-15 22:01:41,062 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.collect_project_status for library
+2020-06-15 22:01:41,332 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.hourly_reminder for library
+2020-06-15 22:01:41,874 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.hourly_reminder for library
+2020-06-15 22:01:42,427 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for library
+2020-06-15 22:01:53,045 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for library
+2020-06-15 22:01:53,188 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for library
+2020-06-15 22:01:54,895 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for library
+2020-06-15 22:01:55,094 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for library
+2020-06-15 22:01:56,599 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for library
+2020-06-15 22:01:57,067 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.subscription.subscription.process_all for library
+2020-06-15 22:01:57,979 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.subscription.subscription.process_all for library
+2020-06-15 22:01:58,590 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for library
+2020-06-15 22:01:59,865 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for library
+2020-06-15 22:02:00,387 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:02:01,427 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:02:01,461 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:02:02,140 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:02:02,176 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:02:02,342 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:02:02,374 INFO scheduler Scheduled Job Start: library_management.task.run_every_ten_mins for library
+2020-06-15 22:02:02,703 INFO scheduler Scheduled Job Failed: library_management.task.run_every_ten_mins for library
+2020-06-15 22:02:06,676 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for library
+2020-06-15 22:02:08,051 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for library
+2020-06-15 22:02:08,272 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for library
+2020-06-15 22:02:21,358 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for library
+2020-06-15 22:02:21,581 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for library
+2020-06-15 22:02:22,037 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for library
+2020-06-15 22:02:22,674 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for library
+2020-06-15 22:02:25,902 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for library
+2020-06-15 22:02:26,098 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for library
+2020-06-15 22:02:26,993 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for library
+2020-06-15 22:02:27,169 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for library
+2020-06-15 22:02:30,515 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for library
+2020-06-15 22:02:30,936 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for library
+2020-06-15 22:02:31,572 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for library
+2020-06-15 22:02:31,734 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for library
+2020-06-15 22:02:32,599 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for library
+2020-06-15 22:02:32,778 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 22:02:33,010 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 22:02:33,091 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:02:33,265 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:02:33,350 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:02:33,778 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:02:33,814 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:02:34,382 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:02:34,414 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:02:34,941 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:02:35,014 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 22:02:35,167 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 22:02:35,219 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for library
+2020-06-15 22:02:37,778 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for library
+2020-06-15 22:02:38,143 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for library
+2020-06-15 22:02:39,156 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for library
+2020-06-15 22:02:39,313 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for library
+2020-06-15 22:02:43,248 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for library
+2020-06-15 22:04:16,342 DEBUG scheduler Queued events for site library
+2020-06-15 22:04:22,333 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:04:26,741 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:04:26,788 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:04:30,897 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:04:30,945 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:04:35,220 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:04:35,255 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 22:04:35,393 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 22:04:35,431 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:04:36,281 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:04:36,320 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:04:37,090 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:04:37,124 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:04:40,381 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:04:40,426 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:04:41,050 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:04:41,083 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 22:04:41,380 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 22:05:17,312 DEBUG scheduler Queued events for site library
+2020-06-15 22:06:17,508 DEBUG scheduler Queued events for site library
+2020-06-15 22:07:17,707 DEBUG scheduler Queued events for site library
+2020-06-15 22:08:17,948 DEBUG scheduler Queued events for site library
+2020-06-15 22:08:19,220 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:08:20,098 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:08:20,143 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:08:21,531 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:08:21,566 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:08:23,795 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:08:23,863 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 22:08:24,016 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 22:08:24,059 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:08:24,141 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:08:24,184 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:08:24,467 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:08:24,501 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:08:26,179 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:08:26,210 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:08:26,432 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:08:26,463 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 22:08:26,711 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 22:09:18,133 DEBUG scheduler Queued events for site library
+2020-06-15 22:10:18,349 DEBUG scheduler Queued events for site library
+2020-06-15 22:10:18,454 INFO scheduler Scheduled Job Start: library_management.task.run_every_ten_mins for library
+2020-06-15 22:10:23,554 INFO scheduler Scheduled Job Failed: library_management.task.run_every_ten_mins for library
+2020-06-15 22:11:18,583 DEBUG scheduler Queued events for site library
+2020-06-15 22:12:18,821 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:12:19,214 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:12:19,262 DEBUG scheduler Queued events for site library
+2020-06-15 22:12:19,265 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:12:19,997 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:12:20,034 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:12:23,527 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:12:23,560 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 22:12:23,716 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 22:12:23,748 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:12:23,875 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:12:23,912 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:12:24,354 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:12:24,386 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:12:24,668 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:12:24,722 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:12:25,148 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:12:25,179 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 22:12:25,459 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 22:13:19,688 DEBUG scheduler Queued events for site library
+2020-06-15 22:14:20,859 DEBUG scheduler Queued events for site library
+2020-06-15 22:15:21,658 DEBUG scheduler Queued events for site library
+2020-06-15 22:15:25,480 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for library
+2020-06-15 22:15:31,526 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for library
+2020-06-15 22:15:31,789 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for library
+2020-06-15 22:15:32,965 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for library
+2020-06-15 22:15:33,623 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for library
+2020-06-15 22:15:36,739 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for library
+2020-06-15 22:16:22,287 DEBUG scheduler Queued events for site library
+2020-06-15 22:16:22,270 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:16:23,014 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:16:23,045 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:16:25,826 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:16:25,870 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:16:29,168 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:16:29,203 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 22:16:29,335 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 22:16:29,373 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:16:29,626 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:16:29,663 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:16:30,222 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:16:30,256 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:16:31,807 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:16:31,851 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:16:32,025 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:16:32,065 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 22:16:32,300 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 22:17:22,511 DEBUG scheduler Queued events for site library
+2020-06-15 22:18:22,690 DEBUG scheduler Queued events for site library
+2020-06-15 22:19:22,882 DEBUG scheduler Queued events for site library
+2020-06-15 22:20:23,078 DEBUG scheduler Queued events for site library
+2020-06-15 22:20:23,098 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:20:23,314 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:20:23,345 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:20:23,541 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:20:23,574 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:20:23,801 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:20:23,833 INFO scheduler Scheduled Job Start: library_management.task.run_every_ten_mins for library
+2020-06-15 22:20:25,524 INFO scheduler Scheduled Job Failed: library_management.task.run_every_ten_mins for library
+2020-06-15 22:20:26,664 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 22:20:26,765 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 22:20:26,844 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:20:27,065 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:20:27,102 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:20:27,238 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:20:27,270 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:20:27,517 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:20:27,553 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:20:27,762 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:20:27,866 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 22:20:28,543 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 22:21:24,296 DEBUG scheduler Queued events for site library
+2020-06-15 22:22:24,512 DEBUG scheduler Queued events for site library
+2020-06-15 22:23:24,689 DEBUG scheduler Queued events for site library
+2020-06-15 22:24:24,885 DEBUG scheduler Queued events for site library
+2020-06-15 22:24:24,894 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:24:25,162 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:24:25,191 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:24:25,561 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:24:25,595 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:24:25,754 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:24:25,784 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 22:24:26,028 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 22:24:26,068 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:24:26,582 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:24:26,613 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:24:26,790 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:24:26,820 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:24:27,048 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:24:27,084 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:24:27,238 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:24:27,272 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 22:24:27,443 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 22:25:25,067 DEBUG scheduler Queued events for site library
+2020-06-15 22:26:25,238 DEBUG scheduler Queued events for site library
+2020-06-15 22:27:25,485 DEBUG scheduler Queued events for site library
+2020-06-15 22:28:25,853 DEBUG scheduler Queued events for site library
+2020-06-15 22:28:27,986 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:28:29,914 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:28:29,975 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:28:32,212 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:28:32,247 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:28:33,607 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:28:33,640 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 22:28:33,734 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 22:28:33,767 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:28:34,044 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:28:34,123 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:28:34,382 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:28:34,470 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:28:36,520 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:28:36,553 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:28:36,687 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:28:36,737 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 22:28:36,972 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 22:29:26,106 DEBUG scheduler Queued events for site library
+2020-06-15 22:30:26,317 INFO scheduler Scheduled Job Start: library_management.task.run_every_ten_mins for library
+2020-06-15 22:30:26,336 DEBUG scheduler Queued events for site library
+2020-06-15 22:30:28,071 INFO scheduler Scheduled Job Failed: library_management.task.run_every_ten_mins for library
+2020-06-15 22:30:28,378 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for library
+2020-06-15 22:30:29,142 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for library
+2020-06-15 22:30:29,293 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for library
+2020-06-15 22:30:29,715 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for library
+2020-06-15 22:30:29,873 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for library
+2020-06-15 22:30:32,806 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for library
+2020-06-15 22:31:26,591 DEBUG scheduler Queued events for site library
+2020-06-15 22:32:26,806 DEBUG scheduler Queued events for site library
+2020-06-15 22:32:26,912 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:32:27,195 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:32:27,227 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:32:28,192 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:32:28,229 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:32:30,476 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:32:30,531 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 22:32:31,114 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 22:32:31,151 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:32:31,822 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:32:31,871 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:32:32,587 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:32:32,662 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:32:34,176 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:32:34,208 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:32:34,343 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:32:34,396 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 22:32:34,585 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 22:33:27,167 DEBUG scheduler Queued events for site library
+2020-06-15 22:34:27,369 DEBUG scheduler Queued events for site library
+2020-06-15 22:35:27,544 DEBUG scheduler Queued events for site library
+2020-06-15 22:36:27,708 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:36:27,781 DEBUG scheduler Queued events for site library
+2020-06-15 22:36:27,857 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:36:27,894 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:36:28,017 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:36:28,051 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:36:28,549 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:36:28,585 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 22:36:28,672 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 22:36:28,707 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:36:28,914 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:36:28,948 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:36:29,043 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:36:29,079 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:36:29,199 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:36:29,232 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:36:29,403 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:36:29,433 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 22:36:29,519 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 22:37:28,004 DEBUG scheduler Queued events for site library
+2020-06-15 22:38:28,569 DEBUG scheduler Queued events for site library
+2020-06-15 22:39:28,742 DEBUG scheduler Queued events for site library
+2020-06-15 22:40:28,923 DEBUG scheduler Queued events for site library
+2020-06-15 22:40:29,080 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:40:29,460 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:40:29,548 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:40:29,775 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:40:29,805 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:40:30,970 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:40:31,001 INFO scheduler Scheduled Job Start: library_management.task.run_every_ten_mins for library
+2020-06-15 22:40:34,526 INFO scheduler Scheduled Job Failed: library_management.task.run_every_ten_mins for library
+2020-06-15 22:40:35,246 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 22:40:35,518 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 22:40:35,554 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:40:35,659 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:40:35,693 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:40:35,866 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:40:35,899 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:40:36,058 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:40:36,100 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:40:36,650 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:40:36,683 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 22:40:37,024 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 22:41:29,098 DEBUG scheduler Queued events for site library
+2020-06-15 22:42:29,285 DEBUG scheduler Queued events for site library
+2020-06-15 22:43:29,545 DEBUG scheduler Queued events for site library
+2020-06-15 22:44:29,756 DEBUG scheduler Queued events for site library
+2020-06-15 22:44:29,788 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:44:30,334 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:44:30,513 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:44:31,325 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:44:31,361 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:44:33,006 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:44:33,080 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 22:44:33,206 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 22:44:33,271 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:44:33,415 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:44:33,495 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:44:33,733 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:44:33,772 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:44:34,303 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:44:34,333 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:44:34,442 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:44:34,472 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 22:44:34,586 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 22:45:29,973 DEBUG scheduler Queued events for site library
+2020-06-15 22:45:29,993 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for library
+2020-06-15 22:45:32,056 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for library
+2020-06-15 22:45:32,775 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for library
+2020-06-15 22:45:33,436 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for library
+2020-06-15 22:45:33,594 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for library
+2020-06-15 22:45:35,469 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for library
+2020-06-15 22:46:30,132 DEBUG scheduler Queued events for site library
+2020-06-15 22:47:30,313 DEBUG scheduler Queued events for site library
+2020-06-15 22:48:30,469 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:48:30,510 DEBUG scheduler Queued events for site library
+2020-06-15 22:48:30,891 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:48:30,922 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:48:31,117 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:48:31,148 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:48:31,292 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:48:31,320 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 22:48:31,425 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 22:48:31,456 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:48:31,543 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:48:31,580 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:48:31,680 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:48:31,713 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:48:31,835 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:48:31,866 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:48:31,993 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:48:32,027 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 22:48:32,223 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 22:49:30,743 DEBUG scheduler Queued events for site library
+2020-06-15 22:50:30,902 INFO scheduler Scheduled Job Start: library_management.task.run_every_ten_mins for library
+2020-06-15 22:50:30,921 DEBUG scheduler Queued events for site library
+2020-06-15 22:50:31,187 INFO scheduler Scheduled Job Failed: library_management.task.run_every_ten_mins for library
+2020-06-15 22:51:31,136 DEBUG scheduler Queued events for site library
+2020-06-15 22:52:31,333 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:52:31,416 DEBUG scheduler Queued events for site library
+2020-06-15 22:52:31,653 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:52:31,704 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:52:31,880 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:52:31,925 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:52:32,017 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:52:32,053 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 22:52:32,147 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 22:52:32,201 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:52:32,336 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:52:32,390 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:52:32,475 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:52:32,520 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:52:32,625 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:52:32,679 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:52:32,797 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:52:32,841 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 22:52:32,969 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 22:53:31,620 DEBUG scheduler Queued events for site library
+2020-06-15 22:54:32,000 DEBUG scheduler Queued events for site library
+2020-06-15 22:55:32,589 DEBUG scheduler Queued events for site library
+2020-06-15 22:56:32,764 DEBUG scheduler Queued events for site library
+2020-06-15 22:56:35,343 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:56:36,928 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 22:56:36,962 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:56:39,348 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 22:56:39,378 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:56:43,458 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 22:56:43,494 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 22:56:43,691 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 22:56:43,724 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:56:43,899 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 22:56:43,932 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:56:44,321 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 22:56:44,350 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:56:46,673 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 22:56:46,714 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:56:46,877 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 22:56:46,909 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 22:56:47,505 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 22:57:32,932 DEBUG scheduler Queued events for site library
+2020-06-15 22:58:33,166 DEBUG scheduler Queued events for site library
+2020-06-15 22:59:33,367 DEBUG scheduler Queued events for site library
+2020-06-15 23:00:33,516 INFO scheduler Scheduled Job Start: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for library
+2020-06-15 23:00:33,656 DEBUG scheduler Queued events for site library
+2020-06-15 23:00:36,849 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for library
+2020-06-15 23:00:36,987 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for library
+2020-06-15 23:00:38,700 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for library
+2020-06-15 23:00:38,877 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.collect_project_status for library
+2020-06-15 23:00:42,241 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.collect_project_status for library
+2020-06-15 23:00:42,665 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.hourly_reminder for library
+2020-06-15 23:00:42,987 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.hourly_reminder for library
+2020-06-15 23:00:43,131 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for library
+2020-06-15 23:00:48,432 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for library
+2020-06-15 23:00:48,763 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for library
+2020-06-15 23:00:49,803 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for library
+2020-06-15 23:00:49,935 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for library
+2020-06-15 23:00:51,404 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for library
+2020-06-15 23:00:52,305 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.subscription.subscription.process_all for library
+2020-06-15 23:00:53,425 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.subscription.subscription.process_all for library
+2020-06-15 23:00:53,831 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for library
+2020-06-15 23:00:54,350 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for library
+2020-06-15 23:00:54,471 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 23:00:54,782 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 23:00:54,812 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 23:00:55,042 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library
+2020-06-15 23:00:55,073 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 23:00:55,548 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for library
+2020-06-15 23:00:55,581 INFO scheduler Scheduled Job Start: library_management.task.run_every_ten_mins for library
+2020-06-15 23:00:56,193 INFO scheduler Scheduled Job Failed: library_management.task.run_every_ten_mins for library
+2020-06-15 23:00:56,613 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for library
+2020-06-15 23:00:57,327 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for library
+2020-06-15 23:00:57,553 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for library
+2020-06-15 23:01:09,977 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for library
+2020-06-15 23:01:10,109 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for library
+2020-06-15 23:01:10,270 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for library
+2020-06-15 23:01:10,419 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for library
+2020-06-15 23:01:13,941 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for library
+2020-06-15 23:01:14,612 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for library
+2020-06-15 23:01:15,948 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for library
+2020-06-15 23:01:16,103 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for library
+2020-06-15 23:01:22,950 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for library
+2020-06-15 23:01:23,131 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for library
+2020-06-15 23:01:23,650 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for library
+2020-06-15 23:01:23,818 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for library
+2020-06-15 23:01:24,427 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for library
+2020-06-15 23:01:24,719 INFO scheduler Scheduled Job Start: frappe.monitor.flush for library
+2020-06-15 23:01:24,853 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for library
+2020-06-15 23:01:24,885 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for library
+2020-06-15 23:01:25,003 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for library
+2020-06-15 23:01:25,039 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 23:01:25,373 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for library
+2020-06-15 23:01:25,444 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 23:01:25,564 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library
+2020-06-15 23:01:25,612 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 23:01:25,796 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library
+2020-06-15 23:01:25,829 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library
+2020-06-15 23:01:25,950 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library
+2020-06-15 23:01:25,982 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for library
+2020-06-15 23:01:26,663 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for library
+2020-06-15 23:01:26,890 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for library
+2020-06-15 23:01:27,399 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for library
+2020-06-15 23:01:27,553 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for library
+2020-06-15 23:01:29,474 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for library
+2020-06-15 23:01:33,882 DEBUG scheduler Queued events for site library
+2020-06-15 23:02:34,150 DEBUG scheduler Queued events for site library
+2020-06-15 23:03:34,314 DEBUG scheduler Queued events for site library
+2020-06-15 23:04:34,504 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 23:04:34,560 DEBUG scheduler Queued events for site library
+2020-06-15 23:04:34,736 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for library
+2020-06-15 23:04:34,796 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for library

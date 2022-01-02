@@ -1,0 +1,195 @@
+2020-06-15 11:58:15,044 ERROR frappe New Exception collected with id: 2020-06-15 11:58:15.036002-127.0.0.1-5c0
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:58:15,926 ERROR frappe New Exception collected with id: 2020-06-15 11:58:15.914486-127.0.0.1-ae4
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:58:15,926 ERROR frappe New Exception collected with id: 2020-06-15 11:58:15.914486-127.0.0.1-ae4
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:58:23,816 ERROR frappe New Exception collected with id: 2020-06-15 11:58:23.810510-127.0.0.1-8f1
+Site: library
+Form Dict: {}
+2020-06-15 11:58:23,816 ERROR frappe New Exception collected with id: 2020-06-15 11:58:23.810510-127.0.0.1-8f1
+Site: library
+Form Dict: {}
+2020-06-15 11:58:23,816 ERROR frappe New Exception collected with id: 2020-06-15 11:58:23.810510-127.0.0.1-8f1
+Site: library
+Form Dict: {}
+2020-06-15 11:58:28,772 ERROR frappe New Exception collected with id: 2020-06-15 11:58:28.761906-127.0.0.1-62e
+Site: library
+Form Dict: {}
+2020-06-15 11:58:28,772 ERROR frappe New Exception collected with id: 2020-06-15 11:58:28.761906-127.0.0.1-62e
+Site: library
+Form Dict: {}
+2020-06-15 11:58:28,772 ERROR frappe New Exception collected with id: 2020-06-15 11:58:28.761906-127.0.0.1-62e
+Site: library
+Form Dict: {}
+2020-06-15 11:58:28,772 ERROR frappe New Exception collected with id: 2020-06-15 11:58:28.761906-127.0.0.1-62e
+Site: library
+Form Dict: {}
+2020-06-15 23:44:54,723 ERROR frappe New Exception collected with id: 2020-06-15 23:44:52.088648-127.0.0.1-ac1
+Site: library
+Form Dict: {}
+2020-06-15 23:44:56,790 ERROR frappe New Exception collected with id: 2020-06-15 23:44:56.781055-127.0.0.1-300
+Site: library
+Form Dict: {}
+2020-06-15 23:44:56,790 ERROR frappe New Exception collected with id: 2020-06-15 23:44:56.781055-127.0.0.1-300
+Site: library
+Form Dict: {}
+2020-06-15 23:45:24,099 ERROR frappe New Exception collected with id: 2020-06-15 23:45:24.095038-127.0.0.1-903
+Site: library
+Form Dict: {}
+2020-06-15 23:45:24,099 ERROR frappe New Exception collected with id: 2020-06-15 23:45:24.095038-127.0.0.1-903
+Site: library
+Form Dict: {}
+2020-06-15 23:45:24,099 ERROR frappe New Exception collected with id: 2020-06-15 23:45:24.095038-127.0.0.1-903
+Site: library
+Form Dict: {}
+2020-06-15 23:45:24,936 ERROR frappe New Exception collected with id: 2020-06-15 23:45:24.931668-127.0.0.1-c1e
+Site: library
+Form Dict: {}
+2020-06-15 23:45:24,936 ERROR frappe New Exception collected with id: 2020-06-15 23:45:24.931668-127.0.0.1-c1e
+Site: library
+Form Dict: {}
+2020-06-15 23:45:24,936 ERROR frappe New Exception collected with id: 2020-06-15 23:45:24.931668-127.0.0.1-c1e
+Site: library
+Form Dict: {}
+2020-06-15 23:45:24,936 ERROR frappe New Exception collected with id: 2020-06-15 23:45:24.931668-127.0.0.1-c1e
+Site: library
+Form Dict: {}
+2020-06-15 23:46:13,261 ERROR frappe New Exception collected with id: 2020-06-15 23:46:13.256734-127.0.0.1-a31
+Site: library
+Form Dict: {}
+2020-06-15 23:46:13,261 ERROR frappe New Exception collected with id: 2020-06-15 23:46:13.256734-127.0.0.1-a31
+Site: library
+Form Dict: {}
+2020-06-15 23:46:13,261 ERROR frappe New Exception collected with id: 2020-06-15 23:46:13.256734-127.0.0.1-a31
+Site: library
+Form Dict: {}
+2020-06-15 23:46:13,261 ERROR frappe New Exception collected with id: 2020-06-15 23:46:13.256734-127.0.0.1-a31
+Site: library
+Form Dict: {}
+2020-06-15 23:46:13,261 ERROR frappe New Exception collected with id: 2020-06-15 23:46:13.256734-127.0.0.1-a31
+Site: library
+Form Dict: {}
+2020-06-15 23:46:14,118 ERROR frappe New Exception collected with id: 2020-06-15 23:46:14.112941-127.0.0.1-24d
+Site: library
+Form Dict: {}
+2020-06-15 23:46:14,118 ERROR frappe New Exception collected with id: 2020-06-15 23:46:14.112941-127.0.0.1-24d
+Site: library
+Form Dict: {}
+2020-06-15 23:46:14,118 ERROR frappe New Exception collected with id: 2020-06-15 23:46:14.112941-127.0.0.1-24d
+Site: library
+Form Dict: {}
+2020-06-15 23:46:14,118 ERROR frappe New Exception collected with id: 2020-06-15 23:46:14.112941-127.0.0.1-24d
+Site: library
+Form Dict: {}
+2020-06-15 23:46:14,118 ERROR frappe New Exception collected with id: 2020-06-15 23:46:14.112941-127.0.0.1-24d
+Site: library
+Form Dict: {}
+2020-06-15 23:46:14,118 ERROR frappe New Exception collected with id: 2020-06-15 23:46:14.112941-127.0.0.1-24d
+Site: library
+Form Dict: {}
+2020-06-15 23:46:15,658 ERROR frappe New Exception collected with id: 2020-06-15 23:46:15.652756-127.0.0.1-9a1
+Site: library
+Form Dict: {}
+2020-06-15 23:46:15,658 ERROR frappe New Exception collected with id: 2020-06-15 23:46:15.652756-127.0.0.1-9a1
+Site: library
+Form Dict: {}
+2020-06-15 23:46:15,658 ERROR frappe New Exception collected with id: 2020-06-15 23:46:15.652756-127.0.0.1-9a1
+Site: library
+Form Dict: {}
+2020-06-15 23:46:15,658 ERROR frappe New Exception collected with id: 2020-06-15 23:46:15.652756-127.0.0.1-9a1
+Site: library
+Form Dict: {}
+2020-06-15 23:46:15,658 ERROR frappe New Exception collected with id: 2020-06-15 23:46:15.652756-127.0.0.1-9a1
+Site: library
+Form Dict: {}
+2020-06-15 23:46:15,658 ERROR frappe New Exception collected with id: 2020-06-15 23:46:15.652756-127.0.0.1-9a1
+Site: library
+Form Dict: {}
+2020-06-15 23:46:15,658 ERROR frappe New Exception collected with id: 2020-06-15 23:46:15.652756-127.0.0.1-9a1
+Site: library
+Form Dict: {}
+2020-06-15 23:46:16,110 ERROR frappe New Exception collected with id: 2020-06-15 23:46:16.105638-127.0.0.1-460
+Site: library
+Form Dict: {}
+2020-06-15 23:46:16,110 ERROR frappe New Exception collected with id: 2020-06-15 23:46:16.105638-127.0.0.1-460
+Site: library
+Form Dict: {}
+2020-06-15 23:46:16,110 ERROR frappe New Exception collected with id: 2020-06-15 23:46:16.105638-127.0.0.1-460
+Site: library
+Form Dict: {}
+2020-06-15 23:46:16,110 ERROR frappe New Exception collected with id: 2020-06-15 23:46:16.105638-127.0.0.1-460
+Site: library
+Form Dict: {}
+2020-06-15 23:46:16,110 ERROR frappe New Exception collected with id: 2020-06-15 23:46:16.105638-127.0.0.1-460
+Site: library
+Form Dict: {}
+2020-06-15 23:46:16,110 ERROR frappe New Exception collected with id: 2020-06-15 23:46:16.105638-127.0.0.1-460
+Site: library
+Form Dict: {}
+2020-06-15 23:46:16,110 ERROR frappe New Exception collected with id: 2020-06-15 23:46:16.105638-127.0.0.1-460
+Site: library
+Form Dict: {}
+2020-06-15 23:46:16,110 ERROR frappe New Exception collected with id: 2020-06-15 23:46:16.105638-127.0.0.1-460
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,292 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.288479-127.0.0.1-e9b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,292 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.288479-127.0.0.1-e9b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,292 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.288479-127.0.0.1-e9b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,292 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.288479-127.0.0.1-e9b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,292 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.288479-127.0.0.1-e9b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,292 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.288479-127.0.0.1-e9b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,292 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.288479-127.0.0.1-e9b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,292 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.288479-127.0.0.1-e9b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,292 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.288479-127.0.0.1-e9b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,754 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.747596-127.0.0.1-68b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,754 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.747596-127.0.0.1-68b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,754 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.747596-127.0.0.1-68b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,754 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.747596-127.0.0.1-68b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,754 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.747596-127.0.0.1-68b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,754 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.747596-127.0.0.1-68b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,754 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.747596-127.0.0.1-68b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,754 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.747596-127.0.0.1-68b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,754 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.747596-127.0.0.1-68b
+Site: library
+Form Dict: {}
+2020-06-15 23:46:20,754 ERROR frappe New Exception collected with id: 2020-06-15 23:46:20.747596-127.0.0.1-68b
+Site: library
+Form Dict: {}

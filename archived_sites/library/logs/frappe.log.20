@@ -1,0 +1,1572 @@
+2020-06-14 21:44:03,700 ERROR frappe New Exception collected with id: 2020-06-14 21:44:03.697224-127.0.0.1-688
+Site: library
+Form Dict: {'data[name]': 'adetomiwatijani08@gmail.com', 'data[owner]': 'Guest', 'data[creation]': '2020-06-14 21:32:25.612557', 'data[modified]': '2020-06-14 21:39:15.691458', 'data[modified_by]': 'Administrator', 'data[idx]': '0', 'data[docstatus]': '0', 'data[enabled]': '1', 'data[email]': 'adetomiwatijani08@gmail.com', 'data[first_name]': 'Adetomiwa ', 'data[last_name]': 'Tijani', 'data[full_name]': 'Adetomiwa  Tijani', 'data[send_welcome_email]': '1', 'data[unsubscribed]': '0', 'data[username]': 'adetomiwa_tijani', 'data[language]': 'en', 'data[mute_sounds]': '0', 'data[new_password]': '', 'data[logout_all_sessions]': '0', 'data[reset_password_key]': 'l58ZEznPn5XJ631JjTajQWbu1RAa4Vxr', 'data[document_follow_notify]': '0', 'data[document_follow_frequency]': 'Daily', 'data[thread_notify]': '1', 'data[send_me_a_copy]': '0', 'data[allowed_in_mentions]': '1', 'data[simultaneous_sessions]': '1', 'data[user_type]': 'System User', 'data[login_after]': '0', 'data[login_before]': '0', 'data[bypass_restrict_ip_check_if_2fa_enabled]': '0', 'data[doctype]': 'User', 'data[roles][0][name]': '9b75ff6389', 'data[roles][0][owner]': 'Administrator', 'data[roles][0][creation]': '2020-06-14 21:32:25.612557', 'data[roles][0][modified]': '2020-06-14 21:39:15.691458', 'data[roles][0][modified_by]': 'Administrator', 'data[roles][0][parent]': 'adetomiwatijani08@gmail.com', 'data[roles][0][parentfield]': 'roles', 'data[roles][0][parenttype]': 'User', 'data[roles][0][idx]': '1', 'data[roles][0][docstatus]': '0', 'data[roles][0][role]': 'Library Member', 'data[roles][0][doctype]': 'Has Role', 'data[social_logins][0][name]': '904b3cb543', 'data[social_logins][0][owner]': 'Guest', 'data[social_logins][0][creation]': '2020-06-14 21:32:29.567417', 'data[social_logins][0][modified]': '2020-06-14 21:39:15.691458', 'data[social_logins][0][modified_by]': 'Administrator', 'data[social_logins][0][parent]': 'adetomiwatijani08@gmail.com', 'data[social_logins][0][parentfield]': 'social_logins', 'data[social_logins][0][parenttype]': 'User', 'data[social_logins][0][idx]': '1', 'data[social_logins][0][docstatus]': '0', 'data[social_logins][0][provider]': 'frappe', 'data[social_logins][0][userid]': '5b8a7a0d12962c437ba3f121361fd6459334112', 'data[social_logins][0][doctype]': 'User Social Login', 'data[user_image]': '/files/ui.png', 'data[web_form_name]': 'edit-profile', 'web_form': 'edit-profile', 'docname': 'adetomiwatijani08@gmail.com', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2020-06-14 21:44:03,858 ERROR frappe New Exception collected with id: 2020-06-14 21:44:03.856326-127.0.0.1-61d
+Site: library
+Form Dict: {'data[name]': 'adetomiwatijani08@gmail.com', 'data[owner]': 'Guest', 'data[creation]': '2020-06-14 21:32:25.612557', 'data[modified]': '2020-06-14 21:39:15.691458', 'data[modified_by]': 'Administrator', 'data[idx]': '0', 'data[docstatus]': '0', 'data[enabled]': '1', 'data[email]': 'adetomiwatijani08@gmail.com', 'data[first_name]': 'Adetomiwa ', 'data[last_name]': 'Tijani', 'data[full_name]': 'Adetomiwa  Tijani', 'data[send_welcome_email]': '1', 'data[unsubscribed]': '0', 'data[username]': 'adetomiwa_tijani', 'data[language]': 'en', 'data[mute_sounds]': '0', 'data[new_password]': '', 'data[logout_all_sessions]': '0', 'data[reset_password_key]': 'l58ZEznPn5XJ631JjTajQWbu1RAa4Vxr', 'data[document_follow_notify]': '0', 'data[document_follow_frequency]': 'Daily', 'data[thread_notify]': '1', 'data[send_me_a_copy]': '0', 'data[allowed_in_mentions]': '1', 'data[simultaneous_sessions]': '1', 'data[user_type]': 'System User', 'data[login_after]': '0', 'data[login_before]': '0', 'data[bypass_restrict_ip_check_if_2fa_enabled]': '0', 'data[doctype]': 'User', 'data[roles][0][name]': '9b75ff6389', 'data[roles][0][owner]': 'Administrator', 'data[roles][0][creation]': '2020-06-14 21:32:25.612557', 'data[roles][0][modified]': '2020-06-14 21:39:15.691458', 'data[roles][0][modified_by]': 'Administrator', 'data[roles][0][parent]': 'adetomiwatijani08@gmail.com', 'data[roles][0][parentfield]': 'roles', 'data[roles][0][parenttype]': 'User', 'data[roles][0][idx]': '1', 'data[roles][0][docstatus]': '0', 'data[roles][0][role]': 'Library Member', 'data[roles][0][doctype]': 'Has Role', 'data[social_logins][0][name]': '904b3cb543', 'data[social_logins][0][owner]': 'Guest', 'data[social_logins][0][creation]': '2020-06-14 21:32:29.567417', 'data[social_logins][0][modified]': '2020-06-14 21:39:15.691458', 'data[social_logins][0][modified_by]': 'Administrator', 'data[social_logins][0][parent]': 'adetomiwatijani08@gmail.com', 'data[social_logins][0][parentfield]': 'social_logins', 'data[social_logins][0][parenttype]': 'User', 'data[social_logins][0][idx]': '1', 'data[social_logins][0][docstatus]': '0', 'data[social_logins][0][provider]': 'frappe', 'data[social_logins][0][userid]': '5b8a7a0d12962c437ba3f121361fd6459334112', 'data[social_logins][0][doctype]': 'User Social Login', 'data[user_image]': '/files/ui.png', 'data[web_form_name]': 'edit-profile', 'web_form': 'edit-profile', 'docname': 'adetomiwatijani08@gmail.com', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2020-06-14 21:44:03,858 ERROR frappe New Exception collected with id: 2020-06-14 21:44:03.856326-127.0.0.1-61d
+Site: library
+Form Dict: {'data[name]': 'adetomiwatijani08@gmail.com', 'data[owner]': 'Guest', 'data[creation]': '2020-06-14 21:32:25.612557', 'data[modified]': '2020-06-14 21:39:15.691458', 'data[modified_by]': 'Administrator', 'data[idx]': '0', 'data[docstatus]': '0', 'data[enabled]': '1', 'data[email]': 'adetomiwatijani08@gmail.com', 'data[first_name]': 'Adetomiwa ', 'data[last_name]': 'Tijani', 'data[full_name]': 'Adetomiwa  Tijani', 'data[send_welcome_email]': '1', 'data[unsubscribed]': '0', 'data[username]': 'adetomiwa_tijani', 'data[language]': 'en', 'data[mute_sounds]': '0', 'data[new_password]': '', 'data[logout_all_sessions]': '0', 'data[reset_password_key]': 'l58ZEznPn5XJ631JjTajQWbu1RAa4Vxr', 'data[document_follow_notify]': '0', 'data[document_follow_frequency]': 'Daily', 'data[thread_notify]': '1', 'data[send_me_a_copy]': '0', 'data[allowed_in_mentions]': '1', 'data[simultaneous_sessions]': '1', 'data[user_type]': 'System User', 'data[login_after]': '0', 'data[login_before]': '0', 'data[bypass_restrict_ip_check_if_2fa_enabled]': '0', 'data[doctype]': 'User', 'data[roles][0][name]': '9b75ff6389', 'data[roles][0][owner]': 'Administrator', 'data[roles][0][creation]': '2020-06-14 21:32:25.612557', 'data[roles][0][modified]': '2020-06-14 21:39:15.691458', 'data[roles][0][modified_by]': 'Administrator', 'data[roles][0][parent]': 'adetomiwatijani08@gmail.com', 'data[roles][0][parentfield]': 'roles', 'data[roles][0][parenttype]': 'User', 'data[roles][0][idx]': '1', 'data[roles][0][docstatus]': '0', 'data[roles][0][role]': 'Library Member', 'data[roles][0][doctype]': 'Has Role', 'data[social_logins][0][name]': '904b3cb543', 'data[social_logins][0][owner]': 'Guest', 'data[social_logins][0][creation]': '2020-06-14 21:32:29.567417', 'data[social_logins][0][modified]': '2020-06-14 21:39:15.691458', 'data[social_logins][0][modified_by]': 'Administrator', 'data[social_logins][0][parent]': 'adetomiwatijani08@gmail.com', 'data[social_logins][0][parentfield]': 'social_logins', 'data[social_logins][0][parenttype]': 'User', 'data[social_logins][0][idx]': '1', 'data[social_logins][0][docstatus]': '0', 'data[social_logins][0][provider]': 'frappe', 'data[social_logins][0][userid]': '5b8a7a0d12962c437ba3f121361fd6459334112', 'data[social_logins][0][doctype]': 'User Social Login', 'data[user_image]': '/files/ui.png', 'data[web_form_name]': 'edit-profile', 'web_form': 'edit-profile', 'docname': 'adetomiwatijani08@gmail.com', 'for_payment': 'false', 'cmd': 'frappe.website.doctype.web_form.web_form.accept'}
+2020-06-15 02:45:58,067 ERROR frappe New Exception collected with id: 2020-06-15 02:45:51.967579-127.0.0.1-350
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:06,792 ERROR frappe New Exception collected with id: 2020-06-15 02:46:06.791069-127.0.0.1-d52
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:06,792 ERROR frappe New Exception collected with id: 2020-06-15 02:46:06.791069-127.0.0.1-d52
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:12,739 ERROR frappe New Exception collected with id: 2020-06-15 02:46:12.737076-127.0.0.1-dd0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:12,739 ERROR frappe New Exception collected with id: 2020-06-15 02:46:12.737076-127.0.0.1-dd0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:12,739 ERROR frappe New Exception collected with id: 2020-06-15 02:46:12.737076-127.0.0.1-dd0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:13,302 ERROR frappe New Exception collected with id: 2020-06-15 02:46:13.300464-127.0.0.1-84d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:13,302 ERROR frappe New Exception collected with id: 2020-06-15 02:46:13.300464-127.0.0.1-84d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:13,302 ERROR frappe New Exception collected with id: 2020-06-15 02:46:13.300464-127.0.0.1-84d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:13,302 ERROR frappe New Exception collected with id: 2020-06-15 02:46:13.300464-127.0.0.1-84d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:14,313 ERROR frappe New Exception collected with id: 2020-06-15 02:46:14.312016-127.0.0.1-d14
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:14,313 ERROR frappe New Exception collected with id: 2020-06-15 02:46:14.312016-127.0.0.1-d14
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:14,313 ERROR frappe New Exception collected with id: 2020-06-15 02:46:14.312016-127.0.0.1-d14
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:14,313 ERROR frappe New Exception collected with id: 2020-06-15 02:46:14.312016-127.0.0.1-d14
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:14,313 ERROR frappe New Exception collected with id: 2020-06-15 02:46:14.312016-127.0.0.1-d14
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:14,870 ERROR frappe New Exception collected with id: 2020-06-15 02:46:14.866258-127.0.0.1-dd3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:14,870 ERROR frappe New Exception collected with id: 2020-06-15 02:46:14.866258-127.0.0.1-dd3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:14,870 ERROR frappe New Exception collected with id: 2020-06-15 02:46:14.866258-127.0.0.1-dd3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:14,870 ERROR frappe New Exception collected with id: 2020-06-15 02:46:14.866258-127.0.0.1-dd3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:14,870 ERROR frappe New Exception collected with id: 2020-06-15 02:46:14.866258-127.0.0.1-dd3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:14,870 ERROR frappe New Exception collected with id: 2020-06-15 02:46:14.866258-127.0.0.1-dd3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:15,831 ERROR frappe New Exception collected with id: 2020-06-15 02:46:15.830015-127.0.0.1-319
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:15,831 ERROR frappe New Exception collected with id: 2020-06-15 02:46:15.830015-127.0.0.1-319
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:15,831 ERROR frappe New Exception collected with id: 2020-06-15 02:46:15.830015-127.0.0.1-319
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:15,831 ERROR frappe New Exception collected with id: 2020-06-15 02:46:15.830015-127.0.0.1-319
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:15,831 ERROR frappe New Exception collected with id: 2020-06-15 02:46:15.830015-127.0.0.1-319
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:15,831 ERROR frappe New Exception collected with id: 2020-06-15 02:46:15.830015-127.0.0.1-319
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:15,831 ERROR frappe New Exception collected with id: 2020-06-15 02:46:15.830015-127.0.0.1-319
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:16,422 ERROR frappe New Exception collected with id: 2020-06-15 02:46:16.420730-127.0.0.1-ba8
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:16,422 ERROR frappe New Exception collected with id: 2020-06-15 02:46:16.420730-127.0.0.1-ba8
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:16,422 ERROR frappe New Exception collected with id: 2020-06-15 02:46:16.420730-127.0.0.1-ba8
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:16,422 ERROR frappe New Exception collected with id: 2020-06-15 02:46:16.420730-127.0.0.1-ba8
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:16,422 ERROR frappe New Exception collected with id: 2020-06-15 02:46:16.420730-127.0.0.1-ba8
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:16,422 ERROR frappe New Exception collected with id: 2020-06-15 02:46:16.420730-127.0.0.1-ba8
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:16,422 ERROR frappe New Exception collected with id: 2020-06-15 02:46:16.420730-127.0.0.1-ba8
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:16,422 ERROR frappe New Exception collected with id: 2020-06-15 02:46:16.420730-127.0.0.1-ba8
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:18,753 ERROR frappe New Exception collected with id: 2020-06-15 02:46:18.749956-127.0.0.1-4fc
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:18,753 ERROR frappe New Exception collected with id: 2020-06-15 02:46:18.749956-127.0.0.1-4fc
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:18,753 ERROR frappe New Exception collected with id: 2020-06-15 02:46:18.749956-127.0.0.1-4fc
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:18,753 ERROR frappe New Exception collected with id: 2020-06-15 02:46:18.749956-127.0.0.1-4fc
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:18,753 ERROR frappe New Exception collected with id: 2020-06-15 02:46:18.749956-127.0.0.1-4fc
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:18,753 ERROR frappe New Exception collected with id: 2020-06-15 02:46:18.749956-127.0.0.1-4fc
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:18,753 ERROR frappe New Exception collected with id: 2020-06-15 02:46:18.749956-127.0.0.1-4fc
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:18,753 ERROR frappe New Exception collected with id: 2020-06-15 02:46:18.749956-127.0.0.1-4fc
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:18,753 ERROR frappe New Exception collected with id: 2020-06-15 02:46:18.749956-127.0.0.1-4fc
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:19,306 ERROR frappe New Exception collected with id: 2020-06-15 02:46:19.303231-127.0.0.1-4ff
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:19,306 ERROR frappe New Exception collected with id: 2020-06-15 02:46:19.303231-127.0.0.1-4ff
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:19,306 ERROR frappe New Exception collected with id: 2020-06-15 02:46:19.303231-127.0.0.1-4ff
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:19,306 ERROR frappe New Exception collected with id: 2020-06-15 02:46:19.303231-127.0.0.1-4ff
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:19,306 ERROR frappe New Exception collected with id: 2020-06-15 02:46:19.303231-127.0.0.1-4ff
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:19,306 ERROR frappe New Exception collected with id: 2020-06-15 02:46:19.303231-127.0.0.1-4ff
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:19,306 ERROR frappe New Exception collected with id: 2020-06-15 02:46:19.303231-127.0.0.1-4ff
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:19,306 ERROR frappe New Exception collected with id: 2020-06-15 02:46:19.303231-127.0.0.1-4ff
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:19,306 ERROR frappe New Exception collected with id: 2020-06-15 02:46:19.303231-127.0.0.1-4ff
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 02:46:19,306 ERROR frappe New Exception collected with id: 2020-06-15 02:46:19.303231-127.0.0.1-4ff
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:04:11,837 ERROR frappe New Exception collected with id: 2020-06-15 03:04:11.690140-127.0.0.1-a98
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:04:19,535 ERROR frappe New Exception collected with id: 2020-06-15 03:04:19.532632-127.0.0.1-e30
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:04:19,535 ERROR frappe New Exception collected with id: 2020-06-15 03:04:19.532632-127.0.0.1-e30
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:08:43,658 ERROR frappe New Exception collected with id: 2020-06-15 03:08:43.657254-127.0.0.1-603
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:08:43,658 ERROR frappe New Exception collected with id: 2020-06-15 03:08:43.657254-127.0.0.1-603
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:08:43,658 ERROR frappe New Exception collected with id: 2020-06-15 03:08:43.657254-127.0.0.1-603
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:08:44,940 ERROR frappe New Exception collected with id: 2020-06-15 03:08:44.937996-127.0.0.1-ee0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:08:44,940 ERROR frappe New Exception collected with id: 2020-06-15 03:08:44.937996-127.0.0.1-ee0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:08:44,940 ERROR frappe New Exception collected with id: 2020-06-15 03:08:44.937996-127.0.0.1-ee0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:08:44,940 ERROR frappe New Exception collected with id: 2020-06-15 03:08:44.937996-127.0.0.1-ee0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:15:37,377 ERROR frappe New Exception collected with id: 2020-06-15 03:15:37.216377-127.0.0.1-5f4
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:15:37,377 ERROR frappe New Exception collected with id: 2020-06-15 03:15:37.216377-127.0.0.1-5f4
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:15:37,377 ERROR frappe New Exception collected with id: 2020-06-15 03:15:37.216377-127.0.0.1-5f4
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:15:37,377 ERROR frappe New Exception collected with id: 2020-06-15 03:15:37.216377-127.0.0.1-5f4
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:15:37,377 ERROR frappe New Exception collected with id: 2020-06-15 03:15:37.216377-127.0.0.1-5f4
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:15:38,447 ERROR frappe New Exception collected with id: 2020-06-15 03:15:38.446206-127.0.0.1-373
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:15:38,447 ERROR frappe New Exception collected with id: 2020-06-15 03:15:38.446206-127.0.0.1-373
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:15:38,447 ERROR frappe New Exception collected with id: 2020-06-15 03:15:38.446206-127.0.0.1-373
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:15:38,447 ERROR frappe New Exception collected with id: 2020-06-15 03:15:38.446206-127.0.0.1-373
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:15:38,447 ERROR frappe New Exception collected with id: 2020-06-15 03:15:38.446206-127.0.0.1-373
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:15:38,447 ERROR frappe New Exception collected with id: 2020-06-15 03:15:38.446206-127.0.0.1-373
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:18:21,369 ERROR frappe New Exception collected with id: 2020-06-15 03:18:21.365997-127.0.0.1-fb3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:18:21,369 ERROR frappe New Exception collected with id: 2020-06-15 03:18:21.365997-127.0.0.1-fb3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:18:21,369 ERROR frappe New Exception collected with id: 2020-06-15 03:18:21.365997-127.0.0.1-fb3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:18:21,369 ERROR frappe New Exception collected with id: 2020-06-15 03:18:21.365997-127.0.0.1-fb3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:18:21,369 ERROR frappe New Exception collected with id: 2020-06-15 03:18:21.365997-127.0.0.1-fb3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:18:21,369 ERROR frappe New Exception collected with id: 2020-06-15 03:18:21.365997-127.0.0.1-fb3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:18:21,369 ERROR frappe New Exception collected with id: 2020-06-15 03:18:21.365997-127.0.0.1-fb3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:18:24,909 ERROR frappe New Exception collected with id: 2020-06-15 03:18:24.906349-127.0.0.1-b5c
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:18:24,909 ERROR frappe New Exception collected with id: 2020-06-15 03:18:24.906349-127.0.0.1-b5c
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:18:24,909 ERROR frappe New Exception collected with id: 2020-06-15 03:18:24.906349-127.0.0.1-b5c
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:18:24,909 ERROR frappe New Exception collected with id: 2020-06-15 03:18:24.906349-127.0.0.1-b5c
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:18:24,909 ERROR frappe New Exception collected with id: 2020-06-15 03:18:24.906349-127.0.0.1-b5c
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:18:24,909 ERROR frappe New Exception collected with id: 2020-06-15 03:18:24.906349-127.0.0.1-b5c
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:18:24,909 ERROR frappe New Exception collected with id: 2020-06-15 03:18:24.906349-127.0.0.1-b5c
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:18:24,909 ERROR frappe New Exception collected with id: 2020-06-15 03:18:24.906349-127.0.0.1-b5c
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:16,788 ERROR frappe New Exception collected with id: 2020-06-15 03:21:16.783798-127.0.0.1-58b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:16,788 ERROR frappe New Exception collected with id: 2020-06-15 03:21:16.783798-127.0.0.1-58b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:16,788 ERROR frappe New Exception collected with id: 2020-06-15 03:21:16.783798-127.0.0.1-58b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:16,788 ERROR frappe New Exception collected with id: 2020-06-15 03:21:16.783798-127.0.0.1-58b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:16,788 ERROR frappe New Exception collected with id: 2020-06-15 03:21:16.783798-127.0.0.1-58b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:16,788 ERROR frappe New Exception collected with id: 2020-06-15 03:21:16.783798-127.0.0.1-58b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:16,788 ERROR frappe New Exception collected with id: 2020-06-15 03:21:16.783798-127.0.0.1-58b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:16,788 ERROR frappe New Exception collected with id: 2020-06-15 03:21:16.783798-127.0.0.1-58b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:16,788 ERROR frappe New Exception collected with id: 2020-06-15 03:21:16.783798-127.0.0.1-58b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:19,330 ERROR frappe New Exception collected with id: 2020-06-15 03:21:19.328729-127.0.0.1-17d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:19,330 ERROR frappe New Exception collected with id: 2020-06-15 03:21:19.328729-127.0.0.1-17d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:19,330 ERROR frappe New Exception collected with id: 2020-06-15 03:21:19.328729-127.0.0.1-17d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:19,330 ERROR frappe New Exception collected with id: 2020-06-15 03:21:19.328729-127.0.0.1-17d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:19,330 ERROR frappe New Exception collected with id: 2020-06-15 03:21:19.328729-127.0.0.1-17d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:19,330 ERROR frappe New Exception collected with id: 2020-06-15 03:21:19.328729-127.0.0.1-17d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:19,330 ERROR frappe New Exception collected with id: 2020-06-15 03:21:19.328729-127.0.0.1-17d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:19,330 ERROR frappe New Exception collected with id: 2020-06-15 03:21:19.328729-127.0.0.1-17d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:19,330 ERROR frappe New Exception collected with id: 2020-06-15 03:21:19.328729-127.0.0.1-17d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:21:19,330 ERROR frappe New Exception collected with id: 2020-06-15 03:21:19.328729-127.0.0.1-17d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:00,186 ERROR frappe New Exception collected with id: 2020-06-15 03:22:00.184487-127.0.0.1-845
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:00,186 ERROR frappe New Exception collected with id: 2020-06-15 03:22:00.184487-127.0.0.1-845
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:00,186 ERROR frappe New Exception collected with id: 2020-06-15 03:22:00.184487-127.0.0.1-845
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:00,186 ERROR frappe New Exception collected with id: 2020-06-15 03:22:00.184487-127.0.0.1-845
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:00,186 ERROR frappe New Exception collected with id: 2020-06-15 03:22:00.184487-127.0.0.1-845
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:00,186 ERROR frappe New Exception collected with id: 2020-06-15 03:22:00.184487-127.0.0.1-845
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:00,186 ERROR frappe New Exception collected with id: 2020-06-15 03:22:00.184487-127.0.0.1-845
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:00,186 ERROR frappe New Exception collected with id: 2020-06-15 03:22:00.184487-127.0.0.1-845
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:00,186 ERROR frappe New Exception collected with id: 2020-06-15 03:22:00.184487-127.0.0.1-845
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:00,186 ERROR frappe New Exception collected with id: 2020-06-15 03:22:00.184487-127.0.0.1-845
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:00,186 ERROR frappe New Exception collected with id: 2020-06-15 03:22:00.184487-127.0.0.1-845
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:05,209 ERROR frappe New Exception collected with id: 2020-06-15 03:22:05.207314-127.0.0.1-1c6
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:05,209 ERROR frappe New Exception collected with id: 2020-06-15 03:22:05.207314-127.0.0.1-1c6
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:05,209 ERROR frappe New Exception collected with id: 2020-06-15 03:22:05.207314-127.0.0.1-1c6
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:05,209 ERROR frappe New Exception collected with id: 2020-06-15 03:22:05.207314-127.0.0.1-1c6
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:05,209 ERROR frappe New Exception collected with id: 2020-06-15 03:22:05.207314-127.0.0.1-1c6
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:05,209 ERROR frappe New Exception collected with id: 2020-06-15 03:22:05.207314-127.0.0.1-1c6
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:05,209 ERROR frappe New Exception collected with id: 2020-06-15 03:22:05.207314-127.0.0.1-1c6
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:05,209 ERROR frappe New Exception collected with id: 2020-06-15 03:22:05.207314-127.0.0.1-1c6
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:05,209 ERROR frappe New Exception collected with id: 2020-06-15 03:22:05.207314-127.0.0.1-1c6
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:05,209 ERROR frappe New Exception collected with id: 2020-06-15 03:22:05.207314-127.0.0.1-1c6
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:05,209 ERROR frappe New Exception collected with id: 2020-06-15 03:22:05.207314-127.0.0.1-1c6
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:05,209 ERROR frappe New Exception collected with id: 2020-06-15 03:22:05.207314-127.0.0.1-1c6
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:21,715 ERROR frappe New Exception collected with id: 2020-06-15 03:22:21.713833-127.0.0.1-852
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:21,715 ERROR frappe New Exception collected with id: 2020-06-15 03:22:21.713833-127.0.0.1-852
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:21,715 ERROR frappe New Exception collected with id: 2020-06-15 03:22:21.713833-127.0.0.1-852
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:21,715 ERROR frappe New Exception collected with id: 2020-06-15 03:22:21.713833-127.0.0.1-852
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:21,715 ERROR frappe New Exception collected with id: 2020-06-15 03:22:21.713833-127.0.0.1-852
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:21,715 ERROR frappe New Exception collected with id: 2020-06-15 03:22:21.713833-127.0.0.1-852
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:21,715 ERROR frappe New Exception collected with id: 2020-06-15 03:22:21.713833-127.0.0.1-852
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:21,715 ERROR frappe New Exception collected with id: 2020-06-15 03:22:21.713833-127.0.0.1-852
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:21,715 ERROR frappe New Exception collected with id: 2020-06-15 03:22:21.713833-127.0.0.1-852
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:21,715 ERROR frappe New Exception collected with id: 2020-06-15 03:22:21.713833-127.0.0.1-852
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:21,715 ERROR frappe New Exception collected with id: 2020-06-15 03:22:21.713833-127.0.0.1-852
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:21,715 ERROR frappe New Exception collected with id: 2020-06-15 03:22:21.713833-127.0.0.1-852
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:21,715 ERROR frappe New Exception collected with id: 2020-06-15 03:22:21.713833-127.0.0.1-852
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:22,637 ERROR frappe New Exception collected with id: 2020-06-15 03:22:22.635550-127.0.0.1-a75
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:22,637 ERROR frappe New Exception collected with id: 2020-06-15 03:22:22.635550-127.0.0.1-a75
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:22,637 ERROR frappe New Exception collected with id: 2020-06-15 03:22:22.635550-127.0.0.1-a75
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:22,637 ERROR frappe New Exception collected with id: 2020-06-15 03:22:22.635550-127.0.0.1-a75
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:22,637 ERROR frappe New Exception collected with id: 2020-06-15 03:22:22.635550-127.0.0.1-a75
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:22,637 ERROR frappe New Exception collected with id: 2020-06-15 03:22:22.635550-127.0.0.1-a75
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:22,637 ERROR frappe New Exception collected with id: 2020-06-15 03:22:22.635550-127.0.0.1-a75
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:22,637 ERROR frappe New Exception collected with id: 2020-06-15 03:22:22.635550-127.0.0.1-a75
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:22,637 ERROR frappe New Exception collected with id: 2020-06-15 03:22:22.635550-127.0.0.1-a75
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:22,637 ERROR frappe New Exception collected with id: 2020-06-15 03:22:22.635550-127.0.0.1-a75
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:22,637 ERROR frappe New Exception collected with id: 2020-06-15 03:22:22.635550-127.0.0.1-a75
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:22,637 ERROR frappe New Exception collected with id: 2020-06-15 03:22:22.635550-127.0.0.1-a75
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:22,637 ERROR frappe New Exception collected with id: 2020-06-15 03:22:22.635550-127.0.0.1-a75
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:22:22,637 ERROR frappe New Exception collected with id: 2020-06-15 03:22:22.635550-127.0.0.1-a75
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:30,720 ERROR frappe New Exception collected with id: 2020-06-15 03:24:30.718634-127.0.0.1-bb5
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:30,720 ERROR frappe New Exception collected with id: 2020-06-15 03:24:30.718634-127.0.0.1-bb5
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:30,720 ERROR frappe New Exception collected with id: 2020-06-15 03:24:30.718634-127.0.0.1-bb5
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:30,720 ERROR frappe New Exception collected with id: 2020-06-15 03:24:30.718634-127.0.0.1-bb5
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:30,720 ERROR frappe New Exception collected with id: 2020-06-15 03:24:30.718634-127.0.0.1-bb5
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:30,720 ERROR frappe New Exception collected with id: 2020-06-15 03:24:30.718634-127.0.0.1-bb5
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:30,720 ERROR frappe New Exception collected with id: 2020-06-15 03:24:30.718634-127.0.0.1-bb5
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:30,720 ERROR frappe New Exception collected with id: 2020-06-15 03:24:30.718634-127.0.0.1-bb5
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:30,720 ERROR frappe New Exception collected with id: 2020-06-15 03:24:30.718634-127.0.0.1-bb5
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:30,720 ERROR frappe New Exception collected with id: 2020-06-15 03:24:30.718634-127.0.0.1-bb5
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:30,720 ERROR frappe New Exception collected with id: 2020-06-15 03:24:30.718634-127.0.0.1-bb5
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:30,720 ERROR frappe New Exception collected with id: 2020-06-15 03:24:30.718634-127.0.0.1-bb5
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:30,720 ERROR frappe New Exception collected with id: 2020-06-15 03:24:30.718634-127.0.0.1-bb5
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:30,720 ERROR frappe New Exception collected with id: 2020-06-15 03:24:30.718634-127.0.0.1-bb5
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:30,720 ERROR frappe New Exception collected with id: 2020-06-15 03:24:30.718634-127.0.0.1-bb5
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:32,273 ERROR frappe New Exception collected with id: 2020-06-15 03:24:32.271437-127.0.0.1-c0b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:32,273 ERROR frappe New Exception collected with id: 2020-06-15 03:24:32.271437-127.0.0.1-c0b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:32,273 ERROR frappe New Exception collected with id: 2020-06-15 03:24:32.271437-127.0.0.1-c0b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:32,273 ERROR frappe New Exception collected with id: 2020-06-15 03:24:32.271437-127.0.0.1-c0b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:32,273 ERROR frappe New Exception collected with id: 2020-06-15 03:24:32.271437-127.0.0.1-c0b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:32,273 ERROR frappe New Exception collected with id: 2020-06-15 03:24:32.271437-127.0.0.1-c0b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:32,273 ERROR frappe New Exception collected with id: 2020-06-15 03:24:32.271437-127.0.0.1-c0b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:32,273 ERROR frappe New Exception collected with id: 2020-06-15 03:24:32.271437-127.0.0.1-c0b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:32,273 ERROR frappe New Exception collected with id: 2020-06-15 03:24:32.271437-127.0.0.1-c0b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:32,273 ERROR frappe New Exception collected with id: 2020-06-15 03:24:32.271437-127.0.0.1-c0b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:32,273 ERROR frappe New Exception collected with id: 2020-06-15 03:24:32.271437-127.0.0.1-c0b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:32,273 ERROR frappe New Exception collected with id: 2020-06-15 03:24:32.271437-127.0.0.1-c0b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:32,273 ERROR frappe New Exception collected with id: 2020-06-15 03:24:32.271437-127.0.0.1-c0b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:32,273 ERROR frappe New Exception collected with id: 2020-06-15 03:24:32.271437-127.0.0.1-c0b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:32,273 ERROR frappe New Exception collected with id: 2020-06-15 03:24:32.271437-127.0.0.1-c0b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:24:32,273 ERROR frappe New Exception collected with id: 2020-06-15 03:24:32.271437-127.0.0.1-c0b
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:24,441 ERROR frappe New Exception collected with id: 2020-06-15 03:26:24.437394-127.0.0.1-0d3
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:26:26,349 ERROR frappe New Exception collected with id: 2020-06-15 03:26:26.347498-127.0.0.1-2f0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:23,571 ERROR frappe New Exception collected with id: 2020-06-15 03:27:23.569085-127.0.0.1-8bb
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:27:24,755 ERROR frappe New Exception collected with id: 2020-06-15 03:27:24.754324-127.0.0.1-014
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:54,646 ERROR frappe New Exception collected with id: 2020-06-15 03:35:54.554226-127.0.0.1-69d
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 03:35:57,310 ERROR frappe New Exception collected with id: 2020-06-15 03:35:57.308780-127.0.0.1-caf
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 04:00:42,486 ERROR frappe New Exception collected with id: 2020-06-15 04:00:41.835093-127.0.0.1-5da
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 04:00:44,439 ERROR frappe New Exception collected with id: 2020-06-15 04:00:44.437154-127.0.0.1-1d0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 04:00:44,439 ERROR frappe New Exception collected with id: 2020-06-15 04:00:44.437154-127.0.0.1-1d0
+Site: library
+Form Dict: {'doctype': 'Article'}
+2020-06-15 11:34:12,554 ERROR frappe New Exception collected with id: 2020-06-15 11:34:05.075140-127.0.0.1-467
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:35:34,041 ERROR frappe New Exception collected with id: 2020-06-15 11:35:33.951124-127.0.0.1-7d5
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:35:34,084 ERROR frappe New Exception collected with id: 2020-06-15 11:35:34.081801-127.0.0.1-dba
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:35:34,084 ERROR frappe New Exception collected with id: 2020-06-15 11:35:34.081801-127.0.0.1-dba
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:35:53,110 ERROR frappe New Exception collected with id: 2020-06-15 11:35:53.106365-127.0.0.1-105
+Site: library
+Form Dict: {'doctype': 'Newsletter'}
+2020-06-15 11:35:53,110 ERROR frappe New Exception collected with id: 2020-06-15 11:35:53.106365-127.0.0.1-105
+Site: library
+Form Dict: {'doctype': 'Newsletter'}
+2020-06-15 11:35:53,110 ERROR frappe New Exception collected with id: 2020-06-15 11:35:53.106365-127.0.0.1-105
+Site: library
+Form Dict: {'doctype': 'Newsletter'}
+2020-06-15 11:35:53,774 ERROR frappe New Exception collected with id: 2020-06-15 11:35:53.773035-127.0.0.1-c90
+Site: library
+Form Dict: {'doctype': 'Newsletter'}
+2020-06-15 11:35:53,774 ERROR frappe New Exception collected with id: 2020-06-15 11:35:53.773035-127.0.0.1-c90
+Site: library
+Form Dict: {'doctype': 'Newsletter'}
+2020-06-15 11:35:53,774 ERROR frappe New Exception collected with id: 2020-06-15 11:35:53.773035-127.0.0.1-c90
+Site: library
+Form Dict: {'doctype': 'Newsletter'}
+2020-06-15 11:35:53,774 ERROR frappe New Exception collected with id: 2020-06-15 11:35:53.773035-127.0.0.1-c90
+Site: library
+Form Dict: {'doctype': 'Newsletter'}
+2020-06-15 11:36:46,356 ERROR frappe New Exception collected with id: 2020-06-15 11:36:46.354983-127.0.0.1-60e
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:36:46,356 ERROR frappe New Exception collected with id: 2020-06-15 11:36:46.354983-127.0.0.1-60e
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:36:46,356 ERROR frappe New Exception collected with id: 2020-06-15 11:36:46.354983-127.0.0.1-60e
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:36:46,356 ERROR frappe New Exception collected with id: 2020-06-15 11:36:46.354983-127.0.0.1-60e
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:36:46,356 ERROR frappe New Exception collected with id: 2020-06-15 11:36:46.354983-127.0.0.1-60e
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:36:47,125 ERROR frappe New Exception collected with id: 2020-06-15 11:36:47.122359-127.0.0.1-3d3
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:36:47,125 ERROR frappe New Exception collected with id: 2020-06-15 11:36:47.122359-127.0.0.1-3d3
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:36:47,125 ERROR frappe New Exception collected with id: 2020-06-15 11:36:47.122359-127.0.0.1-3d3
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:36:47,125 ERROR frappe New Exception collected with id: 2020-06-15 11:36:47.122359-127.0.0.1-3d3
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:36:47,125 ERROR frappe New Exception collected with id: 2020-06-15 11:36:47.122359-127.0.0.1-3d3
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:36:47,125 ERROR frappe New Exception collected with id: 2020-06-15 11:36:47.122359-127.0.0.1-3d3
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:37:02,377 ERROR frappe New Exception collected with id: 2020-06-15 11:37:02.375647-127.0.0.1-664
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:37:02,377 ERROR frappe New Exception collected with id: 2020-06-15 11:37:02.375647-127.0.0.1-664
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:37:02,377 ERROR frappe New Exception collected with id: 2020-06-15 11:37:02.375647-127.0.0.1-664
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:37:02,377 ERROR frappe New Exception collected with id: 2020-06-15 11:37:02.375647-127.0.0.1-664
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:37:02,377 ERROR frappe New Exception collected with id: 2020-06-15 11:37:02.375647-127.0.0.1-664
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:37:02,377 ERROR frappe New Exception collected with id: 2020-06-15 11:37:02.375647-127.0.0.1-664
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:37:02,377 ERROR frappe New Exception collected with id: 2020-06-15 11:37:02.375647-127.0.0.1-664
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:37:03,033 ERROR frappe New Exception collected with id: 2020-06-15 11:37:03.029192-127.0.0.1-86f
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:37:03,033 ERROR frappe New Exception collected with id: 2020-06-15 11:37:03.029192-127.0.0.1-86f
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:37:03,033 ERROR frappe New Exception collected with id: 2020-06-15 11:37:03.029192-127.0.0.1-86f
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:37:03,033 ERROR frappe New Exception collected with id: 2020-06-15 11:37:03.029192-127.0.0.1-86f
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:37:03,033 ERROR frappe New Exception collected with id: 2020-06-15 11:37:03.029192-127.0.0.1-86f
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:37:03,033 ERROR frappe New Exception collected with id: 2020-06-15 11:37:03.029192-127.0.0.1-86f
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:37:03,033 ERROR frappe New Exception collected with id: 2020-06-15 11:37:03.029192-127.0.0.1-86f
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:37:03,033 ERROR frappe New Exception collected with id: 2020-06-15 11:37:03.029192-127.0.0.1-86f
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:47,121 ERROR frappe New Exception collected with id: 2020-06-15 11:38:47.119834-127.0.0.1-22c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:47,121 ERROR frappe New Exception collected with id: 2020-06-15 11:38:47.119834-127.0.0.1-22c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:47,121 ERROR frappe New Exception collected with id: 2020-06-15 11:38:47.119834-127.0.0.1-22c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:47,121 ERROR frappe New Exception collected with id: 2020-06-15 11:38:47.119834-127.0.0.1-22c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:47,121 ERROR frappe New Exception collected with id: 2020-06-15 11:38:47.119834-127.0.0.1-22c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:47,121 ERROR frappe New Exception collected with id: 2020-06-15 11:38:47.119834-127.0.0.1-22c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:47,121 ERROR frappe New Exception collected with id: 2020-06-15 11:38:47.119834-127.0.0.1-22c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:47,121 ERROR frappe New Exception collected with id: 2020-06-15 11:38:47.119834-127.0.0.1-22c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:47,121 ERROR frappe New Exception collected with id: 2020-06-15 11:38:47.119834-127.0.0.1-22c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:48,756 ERROR frappe New Exception collected with id: 2020-06-15 11:38:48.753698-127.0.0.1-a2c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:48,756 ERROR frappe New Exception collected with id: 2020-06-15 11:38:48.753698-127.0.0.1-a2c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:48,756 ERROR frappe New Exception collected with id: 2020-06-15 11:38:48.753698-127.0.0.1-a2c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:48,756 ERROR frappe New Exception collected with id: 2020-06-15 11:38:48.753698-127.0.0.1-a2c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:48,756 ERROR frappe New Exception collected with id: 2020-06-15 11:38:48.753698-127.0.0.1-a2c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:48,756 ERROR frappe New Exception collected with id: 2020-06-15 11:38:48.753698-127.0.0.1-a2c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:48,756 ERROR frappe New Exception collected with id: 2020-06-15 11:38:48.753698-127.0.0.1-a2c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:48,756 ERROR frappe New Exception collected with id: 2020-06-15 11:38:48.753698-127.0.0.1-a2c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:48,756 ERROR frappe New Exception collected with id: 2020-06-15 11:38:48.753698-127.0.0.1-a2c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:48,756 ERROR frappe New Exception collected with id: 2020-06-15 11:38:48.753698-127.0.0.1-a2c
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:55,576 ERROR frappe New Exception collected with id: 2020-06-15 11:38:55.573711-127.0.0.1-b80
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:55,576 ERROR frappe New Exception collected with id: 2020-06-15 11:38:55.573711-127.0.0.1-b80
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:55,576 ERROR frappe New Exception collected with id: 2020-06-15 11:38:55.573711-127.0.0.1-b80
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:55,576 ERROR frappe New Exception collected with id: 2020-06-15 11:38:55.573711-127.0.0.1-b80
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:55,576 ERROR frappe New Exception collected with id: 2020-06-15 11:38:55.573711-127.0.0.1-b80
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:55,576 ERROR frappe New Exception collected with id: 2020-06-15 11:38:55.573711-127.0.0.1-b80
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:55,576 ERROR frappe New Exception collected with id: 2020-06-15 11:38:55.573711-127.0.0.1-b80
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:55,576 ERROR frappe New Exception collected with id: 2020-06-15 11:38:55.573711-127.0.0.1-b80
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:55,576 ERROR frappe New Exception collected with id: 2020-06-15 11:38:55.573711-127.0.0.1-b80
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:55,576 ERROR frappe New Exception collected with id: 2020-06-15 11:38:55.573711-127.0.0.1-b80
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:55,576 ERROR frappe New Exception collected with id: 2020-06-15 11:38:55.573711-127.0.0.1-b80
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:56,449 ERROR frappe New Exception collected with id: 2020-06-15 11:38:56.445956-127.0.0.1-9f2
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:56,449 ERROR frappe New Exception collected with id: 2020-06-15 11:38:56.445956-127.0.0.1-9f2
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:56,449 ERROR frappe New Exception collected with id: 2020-06-15 11:38:56.445956-127.0.0.1-9f2
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:56,449 ERROR frappe New Exception collected with id: 2020-06-15 11:38:56.445956-127.0.0.1-9f2
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:56,449 ERROR frappe New Exception collected with id: 2020-06-15 11:38:56.445956-127.0.0.1-9f2
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:56,449 ERROR frappe New Exception collected with id: 2020-06-15 11:38:56.445956-127.0.0.1-9f2
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:56,449 ERROR frappe New Exception collected with id: 2020-06-15 11:38:56.445956-127.0.0.1-9f2
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:56,449 ERROR frappe New Exception collected with id: 2020-06-15 11:38:56.445956-127.0.0.1-9f2
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:56,449 ERROR frappe New Exception collected with id: 2020-06-15 11:38:56.445956-127.0.0.1-9f2
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:56,449 ERROR frappe New Exception collected with id: 2020-06-15 11:38:56.445956-127.0.0.1-9f2
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:56,449 ERROR frappe New Exception collected with id: 2020-06-15 11:38:56.445956-127.0.0.1-9f2
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:38:56,449 ERROR frappe New Exception collected with id: 2020-06-15 11:38:56.445956-127.0.0.1-9f2
+Site: library
+Form Dict: {'doctype': 'Project'}
+2020-06-15 11:49:14,507 ERROR frappe New Exception collected with id: 2020-06-15 11:49:14.265771-127.0.0.1-0ce
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'Akinbowale', 'pwd': 'akintunde', 'device': 'desktop'}
+2020-06-15 11:49:14,507 ERROR frappe New Exception collected with id: 2020-06-15 11:49:14.265771-127.0.0.1-0ce
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'Akinbowale', 'pwd': 'akintunde', 'device': 'desktop'}
+2020-06-15 11:49:14,507 ERROR frappe New Exception collected with id: 2020-06-15 11:49:14.265771-127.0.0.1-0ce
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'Akinbowale', 'pwd': 'akintunde', 'device': 'desktop'}
+2020-06-15 11:49:14,507 ERROR frappe New Exception collected with id: 2020-06-15 11:49:14.265771-127.0.0.1-0ce
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'Akinbowale', 'pwd': 'akintunde', 'device': 'desktop'}
+2020-06-15 11:49:14,507 ERROR frappe New Exception collected with id: 2020-06-15 11:49:14.265771-127.0.0.1-0ce
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'Akinbowale', 'pwd': 'akintunde', 'device': 'desktop'}
+2020-06-15 11:49:14,507 ERROR frappe New Exception collected with id: 2020-06-15 11:49:14.265771-127.0.0.1-0ce
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'Akinbowale', 'pwd': 'akintunde', 'device': 'desktop'}
+2020-06-15 11:49:14,507 ERROR frappe New Exception collected with id: 2020-06-15 11:49:14.265771-127.0.0.1-0ce
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'Akinbowale', 'pwd': 'akintunde', 'device': 'desktop'}
+2020-06-15 11:49:14,507 ERROR frappe New Exception collected with id: 2020-06-15 11:49:14.265771-127.0.0.1-0ce
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'Akinbowale', 'pwd': 'akintunde', 'device': 'desktop'}
+2020-06-15 11:49:14,507 ERROR frappe New Exception collected with id: 2020-06-15 11:49:14.265771-127.0.0.1-0ce
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'Akinbowale', 'pwd': 'akintunde', 'device': 'desktop'}
+2020-06-15 11:49:14,507 ERROR frappe New Exception collected with id: 2020-06-15 11:49:14.265771-127.0.0.1-0ce
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'Akinbowale', 'pwd': 'akintunde', 'device': 'desktop'}
+2020-06-15 11:49:14,507 ERROR frappe New Exception collected with id: 2020-06-15 11:49:14.265771-127.0.0.1-0ce
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'Akinbowale', 'pwd': 'akintunde', 'device': 'desktop'}
+2020-06-15 11:49:14,507 ERROR frappe New Exception collected with id: 2020-06-15 11:49:14.265771-127.0.0.1-0ce
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'Akinbowale', 'pwd': 'akintunde', 'device': 'desktop'}
+2020-06-15 11:49:14,507 ERROR frappe New Exception collected with id: 2020-06-15 11:49:14.265771-127.0.0.1-0ce
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'Akinbowale', 'pwd': 'akintunde', 'device': 'desktop'}
+2020-06-15 11:54:43,952 ERROR frappe New Exception collected with id: 2020-06-15 11:54:43.945406-127.0.0.1-8ba
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:43,952 ERROR frappe New Exception collected with id: 2020-06-15 11:54:43.945406-127.0.0.1-8ba
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:43,952 ERROR frappe New Exception collected with id: 2020-06-15 11:54:43.945406-127.0.0.1-8ba
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:43,952 ERROR frappe New Exception collected with id: 2020-06-15 11:54:43.945406-127.0.0.1-8ba
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:43,952 ERROR frappe New Exception collected with id: 2020-06-15 11:54:43.945406-127.0.0.1-8ba
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:43,952 ERROR frappe New Exception collected with id: 2020-06-15 11:54:43.945406-127.0.0.1-8ba
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:43,952 ERROR frappe New Exception collected with id: 2020-06-15 11:54:43.945406-127.0.0.1-8ba
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:43,952 ERROR frappe New Exception collected with id: 2020-06-15 11:54:43.945406-127.0.0.1-8ba
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:43,952 ERROR frappe New Exception collected with id: 2020-06-15 11:54:43.945406-127.0.0.1-8ba
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:43,952 ERROR frappe New Exception collected with id: 2020-06-15 11:54:43.945406-127.0.0.1-8ba
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:43,952 ERROR frappe New Exception collected with id: 2020-06-15 11:54:43.945406-127.0.0.1-8ba
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:43,952 ERROR frappe New Exception collected with id: 2020-06-15 11:54:43.945406-127.0.0.1-8ba
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:43,952 ERROR frappe New Exception collected with id: 2020-06-15 11:54:43.945406-127.0.0.1-8ba
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:43,952 ERROR frappe New Exception collected with id: 2020-06-15 11:54:43.945406-127.0.0.1-8ba
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:55,580 ERROR frappe New Exception collected with id: 2020-06-15 11:54:55.572954-127.0.0.1-160
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:55,580 ERROR frappe New Exception collected with id: 2020-06-15 11:54:55.572954-127.0.0.1-160
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:55,580 ERROR frappe New Exception collected with id: 2020-06-15 11:54:55.572954-127.0.0.1-160
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:55,580 ERROR frappe New Exception collected with id: 2020-06-15 11:54:55.572954-127.0.0.1-160
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:55,580 ERROR frappe New Exception collected with id: 2020-06-15 11:54:55.572954-127.0.0.1-160
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:55,580 ERROR frappe New Exception collected with id: 2020-06-15 11:54:55.572954-127.0.0.1-160
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:55,580 ERROR frappe New Exception collected with id: 2020-06-15 11:54:55.572954-127.0.0.1-160
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:55,580 ERROR frappe New Exception collected with id: 2020-06-15 11:54:55.572954-127.0.0.1-160
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:55,580 ERROR frappe New Exception collected with id: 2020-06-15 11:54:55.572954-127.0.0.1-160
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:55,580 ERROR frappe New Exception collected with id: 2020-06-15 11:54:55.572954-127.0.0.1-160
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:55,580 ERROR frappe New Exception collected with id: 2020-06-15 11:54:55.572954-127.0.0.1-160
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:55,580 ERROR frappe New Exception collected with id: 2020-06-15 11:54:55.572954-127.0.0.1-160
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:55,580 ERROR frappe New Exception collected with id: 2020-06-15 11:54:55.572954-127.0.0.1-160
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:55,580 ERROR frappe New Exception collected with id: 2020-06-15 11:54:55.572954-127.0.0.1-160
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:54:55,580 ERROR frappe New Exception collected with id: 2020-06-15 11:54:55.572954-127.0.0.1-160
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:49,912 ERROR frappe New Exception collected with id: 2020-06-15 11:55:49.899679-127.0.0.1-644
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:49,912 ERROR frappe New Exception collected with id: 2020-06-15 11:55:49.899679-127.0.0.1-644
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:49,912 ERROR frappe New Exception collected with id: 2020-06-15 11:55:49.899679-127.0.0.1-644
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:49,912 ERROR frappe New Exception collected with id: 2020-06-15 11:55:49.899679-127.0.0.1-644
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:49,912 ERROR frappe New Exception collected with id: 2020-06-15 11:55:49.899679-127.0.0.1-644
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:49,912 ERROR frappe New Exception collected with id: 2020-06-15 11:55:49.899679-127.0.0.1-644
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:49,912 ERROR frappe New Exception collected with id: 2020-06-15 11:55:49.899679-127.0.0.1-644
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:49,912 ERROR frappe New Exception collected with id: 2020-06-15 11:55:49.899679-127.0.0.1-644
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:49,912 ERROR frappe New Exception collected with id: 2020-06-15 11:55:49.899679-127.0.0.1-644
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:49,912 ERROR frappe New Exception collected with id: 2020-06-15 11:55:49.899679-127.0.0.1-644
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:49,912 ERROR frappe New Exception collected with id: 2020-06-15 11:55:49.899679-127.0.0.1-644
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:49,912 ERROR frappe New Exception collected with id: 2020-06-15 11:55:49.899679-127.0.0.1-644
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:49,912 ERROR frappe New Exception collected with id: 2020-06-15 11:55:49.899679-127.0.0.1-644
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:49,912 ERROR frappe New Exception collected with id: 2020-06-15 11:55:49.899679-127.0.0.1-644
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:49,912 ERROR frappe New Exception collected with id: 2020-06-15 11:55:49.899679-127.0.0.1-644
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:49,912 ERROR frappe New Exception collected with id: 2020-06-15 11:55:49.899679-127.0.0.1-644
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:52,827 ERROR frappe New Exception collected with id: 2020-06-15 11:55:52.820285-127.0.0.1-fd9
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:55:56,043 ERROR frappe New Exception collected with id: 2020-06-15 11:55:56.037147-127.0.0.1-7de
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:56:58,934 ERROR frappe New Exception collected with id: 2020-06-15 11:56:58.926408-127.0.0.1-ef7
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}
+2020-06-15 11:57:04,150 ERROR frappe New Exception collected with id: 2020-06-15 11:57:04.142412-127.0.0.1-435
+Site: library
+Form Dict: {'cmd': 'login', 'usr': 'webuser@gmail.com', 'pwd': 'useranother1234#', 'device': 'desktop'}

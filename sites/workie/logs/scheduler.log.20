@@ -1,0 +1,13 @@
+2020-06-21 08:56:40,696 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for workie
+2020-06-21 08:56:40,871 INFO scheduler Scheduled Job Start: frappe.monitor.flush for workie
+2020-06-21 08:56:41,024 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for workie
+2020-06-21 08:56:41,059 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for workie
+2020-06-21 08:56:41,165 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for workie
+2020-06-21 08:56:41,200 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for workie
+2020-06-21 08:56:41,312 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for workie
+2020-06-21 08:56:41,341 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for workie
+2020-06-21 08:56:41,572 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for workie
+2020-06-21 08:56:41,606 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for workie
+2020-06-21 08:56:41,806 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for workie
+2020-06-21 08:56:41,865 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for workie
+2020-06-21 08:56:42,010 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for workie
